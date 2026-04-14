@@ -53,6 +53,7 @@ jobs:
           mkdir -p rel
           find /mingw64/bin/ -type f \( -name "*idevice*" -o \
                                       -name "libimobiledevice*" -o \
+                                      -name "*irecovery*" -o \
                                       -name "libplist*" -o \
                                       -name "plistutil.exe" -o \
                                       -name "afcclient.exe" -o \
