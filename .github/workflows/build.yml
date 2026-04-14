@@ -24,6 +24,7 @@ jobs:
             mingw-w64-x86_64-gcc 
             mingw-w64-x86_64-curl
             libtool
+            libzip
             openssl
             openssl-devel
             python-devel
