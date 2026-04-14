@@ -37,7 +37,7 @@ jobs:
       - name: Configure and Build
         shell: msys2 {0}
         run: |
-          repos=("libplist" "libimobiledevice-glue" "libusbmuxd" "libtatsu" "libimobiledevice")
+          repos=("libplist" "libimobiledevice-glue" "libusbmuxd" "libtatsu" "libirecovery" "libimobiledevice" "idevicerestore" )
           for repo in "${repos[@]}"; do
             echo "Building $repo..."
             git clone "https://github.com/libimobiledevice/$repo"
